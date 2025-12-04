@@ -1,0 +1,35 @@
+/* Feuille de style qui gère la Page de Recherche */
+
+#styles_musique {
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+  gap: 30px;
+  height: 500px;
+  width: 100%;
+}
+
+#carte1 {
+  background: linear-gradient(to right, #2a7b9b, #41a290);
+  width: 30%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+#carte2 {
+  background: linear-gradient(to right, #41a290, #57c785);
+  width: 30%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+#carte3 {
+  background: linear-gradient(to right, #57c785, #9ad16f);
+  width: 30%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #302b42;
+}

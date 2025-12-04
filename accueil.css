@@ -1,0 +1,138 @@
+body {
+  background-color: #302b42;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 72px;
+}
+
+h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+#menu {
+  border: 1px lightblue solid;
+  border-radius: 15px;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  gap: 80px;
+  font-size: 24px;
+}
+
+.lien_nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  border: 3px;
+  border-radius: 15px;
+}
+
+.lien_nav a:hover {
+  transition: 100ms;
+  animation: ease-in-out;
+  background-color: lightseagreen;
+}
+
+.contenu1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 150px;
+}
+
+#page_actuel {
+  color: aquamarine;
+}
+
+.contenu_bouton {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+#bouton_explore {
+  border-width: 5px;
+  border-color: aquamarine;
+  color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px;
+}
+#bouton_a_propos {
+  border-radius: 15px;
+  background-color: aquamarine;
+  border-color: aquamarine;
+  border-width: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+}
+
+#bouton_explore:hover,
+#bouton_a_propos:hover {
+  cursor: pointer;
+  animation: 100s;
+  transition: ease-in-out;
+  transition-duration: 100ms;
+}
+
+#bouton_explore:hover {
+  background-color: #645f77;
+}
+
+#bouton_a_propos:hover {
+  background-color: rgb(198, 250, 233);
+}
+
+hr {
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.contenu2 {
+  padding: 150px;
+  color: lightgray;
+}
+
+p {
+  font-size: 24px;
+}
+
+footer {
+  background-color: rgb(2, 6, 57);
+}
+
+footer p {
+  font-size: 24px;
+  color: lightgray;
+  padding: 150px;
+  height: 300px;
+}
