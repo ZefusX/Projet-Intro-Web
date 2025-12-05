@@ -50,7 +50,7 @@ nav {
 .lien_nav a:hover {
   transition: 100ms;
   animation: ease-in-out;
-  background-color: lightseagreen;
+  color: lightseagreen;
 }
 
 .contenu1 {
@@ -127,12 +127,13 @@ p {
 }
 
 footer {
-  background-color: rgb(2, 6, 57);
+  border-top: 1px solid #aba5bd;
+  height: 30px;
 }
 
 footer p {
   font-size: 24px;
   color: lightgray;
   padding: 150px;
-  height: 300px;
+  height: 10px;
 }

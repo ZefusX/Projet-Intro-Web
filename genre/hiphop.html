@@ -1,2 +1,88 @@
 <!-- Image en haut a gauche, gros titre en haut-->
 <!-- 5 titres au centre avec player etc-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="genre.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav>
+      <ul id="menu">
+        <li class="lien_nav" id="page_actuel">
+          <a href="../accueil.html">Accueil</a>
+        </li>
+        <li class="lien_nav"><a href="../recherche.html">Recherche</a></li>
+        <li class="lien_nav"><a href="../a_propos.html">A propos</a></li>
+      </ul>
+    </nav>
+    <div class="contenu">
+      <div class="en_tete">
+        <img src="../images/hiphop.jpg" alt="Image hiphop" id="image_musique" />
+        <h1>Hip-Hop</h1>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <h2>Cinq de nos sons préférés de hip hop :</h2>
+      <table>
+        <tr id="en_tete_tab">
+          <th width="20%">Titre</th>
+          <th width="20%">Artiste</th>
+          <th>Audio</th>
+        </tr>
+        <tr>
+          <td>Hoe Cake</td>
+          <td>MF Doom</td>
+          <td>
+            <audio controls src="../audio/hoe_cake.mp3" class="audio"></audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Cali Man</td>
+          <td>EsDeeKid</td>
+          <td>
+            <audio controls src="../audio/cali_man.mp3" class="audio"></audio>
+          </td>
+        </tr>
+        <tr>
+          <td>That's my people</td>
+          <td>Suprême NTM</td>
+          <td>
+            <audio
+              controls
+              src="../audio/thats_my_people.mp3"
+              class="audio"
+            ></audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Shook Ones, Pt. II</td>
+          <td>Mobb Deep</td>
+          <td>
+            <audio controls src="../audio/shook_ones.mp3" class="audio"></audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Fenêtre sur Rue</td>
+          <td>Hugo TSR</td>
+          <td>
+            <audio
+              controls
+              src="../audio/fenetre_sur_rue.mp3"
+              class="audio"
+            ></audio>
+          </td>
+        </tr>
+      </table>
+      <h2>Un peu d'histoire :</h2>
+      <p>
+        Le hip-hop est né dans les rues du Bronx, à New York, au milieu des
+        années 1970, en tant que mouvement culturel et social de la jeunesse
+        afro-américaine et caribéenne. Il repose sur quatre piliers principaux :
+        le DJing (art du breakbeat et du scratch, popularisé par DJ Kool Herc),
+        le MCing/Rap (maître de cérémonie et art de la rime parlée), le Graffiti
+        et le Breakdance.
+      </p>
+    </div>
+  </body>
+</html>
